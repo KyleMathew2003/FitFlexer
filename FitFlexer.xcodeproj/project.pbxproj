@@ -14,6 +14,11 @@
 		CB0DC7782B946C2B00DB0A8C /* FitFlexerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC7772B946C2B00DB0A8C /* FitFlexerTests.swift */; };
 		CB0DC7822B946C2B00DB0A8C /* FitFlexerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC7812B946C2B00DB0A8C /* FitFlexerUITests.swift */; };
 		CB0DC7842B946C2B00DB0A8C /* FitFlexerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC7832B946C2B00DB0A8C /* FitFlexerUITestsLaunchTests.swift */; };
+		CB0DC7912B95450700DB0A8C /* MainInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC7902B95450700DB0A8C /* MainInterface.swift */; };
+		CB0DC7952B95473F00DB0A8C /* OverViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC7942B95473F00DB0A8C /* OverViewComponent.swift */; };
+		CB0DC7972B9581AB00DB0A8C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC7962B9581AB00DB0A8C /* Constants.swift */; };
+		CB0DC79B2B9590B800DB0A8C /* RoundedCornerShapeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC79A2B9590B800DB0A8C /* RoundedCornerShapeExtensions.swift */; };
+		CB77F2AD2B978356004722FC /* PoundsTimeIntervalSelectionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB77F2AC2B978356004722FC /* PoundsTimeIntervalSelectionMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		CB0DC77D2B946C2B00DB0A8C /* FitFlexerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitFlexerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0DC7812B946C2B00DB0A8C /* FitFlexerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFlexerUITests.swift; sourceTree = "<group>"; };
 		CB0DC7832B946C2B00DB0A8C /* FitFlexerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFlexerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB0DC7902B95450700DB0A8C /* MainInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInterface.swift; sourceTree = "<group>"; };
+		CB0DC7942B95473F00DB0A8C /* OverViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewComponent.swift; sourceTree = "<group>"; };
+		CB0DC7962B9581AB00DB0A8C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CB0DC79A2B9590B800DB0A8C /* RoundedCornerShapeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerShapeExtensions.swift; sourceTree = "<group>"; };
+		CB77F2AC2B978356004722FC /* PoundsTimeIntervalSelectionMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoundsTimeIntervalSelectionMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +104,13 @@
 		CB0DC7652B946C2A00DB0A8C /* FitFlexer */ = {
 			isa = PBXGroup;
 			children = (
+				CB0DC7922B95462400DB0A8C /* MainInterface */,
 				CB0DC7662B946C2A00DB0A8C /* FitFlexerApp.swift */,
 				CB0DC7682B946C2A00DB0A8C /* ContentView.swift */,
 				CB0DC76A2B946C2B00DB0A8C /* Assets.xcassets */,
 				CB0DC76C2B946C2B00DB0A8C /* Preview Content */,
+				CB0DC7962B9581AB00DB0A8C /* Constants.swift */,
+				CB0DC79A2B9590B800DB0A8C /* RoundedCornerShapeExtensions.swift */,
 			);
 			path = FitFlexer;
 			sourceTree = "<group>";
@@ -125,6 +138,24 @@
 				CB0DC7832B946C2B00DB0A8C /* FitFlexerUITestsLaunchTests.swift */,
 			);
 			path = FitFlexerUITests;
+			sourceTree = "<group>";
+		};
+		CB0DC7922B95462400DB0A8C /* MainInterface */ = {
+			isa = PBXGroup;
+			children = (
+				CB0DC7932B95463A00DB0A8C /* Components */,
+				CB0DC7902B95450700DB0A8C /* MainInterface.swift */,
+			);
+			path = MainInterface;
+			sourceTree = "<group>";
+		};
+		CB0DC7932B95463A00DB0A8C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CB0DC7942B95473F00DB0A8C /* OverViewComponent.swift */,
+				CB77F2AC2B978356004722FC /* PoundsTimeIntervalSelectionMenu.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB0DC7972B9581AB00DB0A8C /* Constants.swift in Sources */,
+				CB0DC79B2B9590B800DB0A8C /* RoundedCornerShapeExtensions.swift in Sources */,
+				CB0DC7952B95473F00DB0A8C /* OverViewComponent.swift in Sources */,
+				CB77F2AD2B978356004722FC /* PoundsTimeIntervalSelectionMenu.swift in Sources */,
 				CB0DC7692B946C2A00DB0A8C /* ContentView.swift in Sources */,
+				CB0DC7912B95450700DB0A8C /* MainInterface.swift in Sources */,
 				CB0DC7672B946C2A00DB0A8C /* FitFlexerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
