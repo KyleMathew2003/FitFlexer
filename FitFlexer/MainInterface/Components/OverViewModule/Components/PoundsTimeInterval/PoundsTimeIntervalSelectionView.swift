@@ -14,14 +14,14 @@ struct PoundsTimeIntervalSelectionView: View {
     var body: some View {
         VStack{
             Spacer()
-                .onTapGesture {
-                    display = false
-                }
             VStack(alignment:.leading,spacing: 10){
                 VStack(spacing:0){
                     ForEach(PoundsTimeIntervalModel.allCases, id: \.self){ i in
                         Button{
                             cur_Interval = i
+                            withAnimation(.spring()){
+                                display = false
+                            }
                         }label: {
                             VStack(spacing:5){
                                 MyDivider(input: (cur_Interval == i) ? .white:.clear)

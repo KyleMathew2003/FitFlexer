@@ -7,12 +7,20 @@
 
 import SwiftUI
 
-struct myDivider: View {
+struct MyDivider: View {
+    
+    init(input:Color){
+        color = input
+    }
+    var color: Color = .gray
+    let width: CGFloat = 1
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Rectangle()
+            .fill(color)
+            .frame(height: width)
+            .edgesIgnoringSafeArea(.horizontal)
     }
 }
-
 #Preview {
-    myDivider()
+    MyDivider(input: .blue)
 }

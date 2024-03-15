@@ -9,7 +9,24 @@ import SwiftUI
 
 struct WorkoutVIew: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing:0){
+            ScrollView{
+                WorkoutViewHeader()
+                HStack{
+                    Text("\(DateFormatter.localizedString(from: Date(), dateStyle: .long, timeStyle: .none))")
+                        .font(.title2)
+                        .fontWeight(.semibold)
+                }
+                MyDivider(input: .white)
+                OverViewComponent()
+            }
+            .padding(Constants.BubblePadding)
+
+            Spacer()
+        }
+        .frame(width:UIScreen.main.bounds.width)
+        .foregroundColor(.white)
+        .background(Color.colorBackgroundMain)
     }
 }
 

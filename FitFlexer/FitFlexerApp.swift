@@ -11,7 +11,7 @@ import SwiftUI
 struct FitFlexerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainInterface()
         }
     }
 }

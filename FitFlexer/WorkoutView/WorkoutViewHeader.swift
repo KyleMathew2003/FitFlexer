@@ -9,7 +9,16 @@ import SwiftUI
 
 struct WorkoutViewHeader: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            Spacer()
+            Text("Start Your Workout")
+                .foregroundColor(Color.white)
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .padding(5)
+                .padding(.bottom,5)
+            Spacer()
+        }
     }
 }
 

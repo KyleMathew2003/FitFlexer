@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CB0DC7672B946C2A00DB0A8C /* FitFlexerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC7662B946C2A00DB0A8C /* FitFlexerApp.swift */; };
-		CB0DC7692B946C2A00DB0A8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC7682B946C2A00DB0A8C /* ContentView.swift */; };
 		CB0DC76B2B946C2B00DB0A8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0DC76A2B946C2B00DB0A8C /* Assets.xcassets */; };
 		CB0DC76E2B946C2B00DB0A8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0DC76D2B946C2B00DB0A8C /* Preview Assets.xcassets */; };
 		CB0DC7782B946C2B00DB0A8C /* FitFlexerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC7772B946C2B00DB0A8C /* FitFlexerTests.swift */; };
@@ -18,7 +17,15 @@
 		CB0DC7952B95473F00DB0A8C /* OverViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC7942B95473F00DB0A8C /* OverViewComponent.swift */; };
 		CB0DC7972B9581AB00DB0A8C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC7962B9581AB00DB0A8C /* Constants.swift */; };
 		CB0DC79B2B9590B800DB0A8C /* RoundedCornerShapeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC79A2B9590B800DB0A8C /* RoundedCornerShapeExtensions.swift */; };
-		CB77F2AD2B978356004722FC /* PoundsTimeIntervalSelectionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB77F2AC2B978356004722FC /* PoundsTimeIntervalSelectionMenu.swift */; };
+		CB77F2AD2B978356004722FC /* PoundsTimeIntervalSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB77F2AC2B978356004722FC /* PoundsTimeIntervalSelectionView.swift */; };
+		CB77F2B02B978518004722FC /* PoundsTimeIntervalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB77F2AF2B978518004722FC /* PoundsTimeIntervalModel.swift */; };
+		CB7CE6B62B9EE09300235DB1 /* ChartDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CE6B52B9EE09300235DB1 /* ChartDataView.swift */; };
+		CB7CE6B82B9EE6E300235DB1 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CE6B72B9EE6E300235DB1 /* DataModel.swift */; };
+		CB7CE6BC2BA189FB00235DB1 /* ChartModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CE6BB2BA189FB00235DB1 /* ChartModule.swift */; };
+		CB7CE6BE2BA3A34200235DB1 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CE6BD2BA3A34200235DB1 /* Header.swift */; };
+		CB7CE6C22BA400FC00235DB1 /* WorkoutVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CE6C12BA400FC00235DB1 /* WorkoutVIew.swift */; };
+		CB7CE6C42BA41AC900235DB1 /* WorkoutViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CE6C32BA41AC900235DB1 /* WorkoutViewHeader.swift */; };
+		CB8BE5072B9A59E000958B51 /* myDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BE5062B9A59E000958B51 /* myDivider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +48,6 @@
 /* Begin PBXFileReference section */
 		CB0DC7632B946C2A00DB0A8C /* FitFlexer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitFlexer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0DC7662B946C2A00DB0A8C /* FitFlexerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFlexerApp.swift; sourceTree = "<group>"; };
-		CB0DC7682B946C2A00DB0A8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB0DC76A2B946C2B00DB0A8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB0DC76D2B946C2B00DB0A8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CB0DC7732B946C2B00DB0A8C /* FitFlexerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitFlexerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,7 +59,15 @@
 		CB0DC7942B95473F00DB0A8C /* OverViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewComponent.swift; sourceTree = "<group>"; };
 		CB0DC7962B9581AB00DB0A8C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CB0DC79A2B9590B800DB0A8C /* RoundedCornerShapeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerShapeExtensions.swift; sourceTree = "<group>"; };
-		CB77F2AC2B978356004722FC /* PoundsTimeIntervalSelectionMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoundsTimeIntervalSelectionMenu.swift; sourceTree = "<group>"; };
+		CB77F2AC2B978356004722FC /* PoundsTimeIntervalSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoundsTimeIntervalSelectionView.swift; sourceTree = "<group>"; };
+		CB77F2AF2B978518004722FC /* PoundsTimeIntervalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoundsTimeIntervalModel.swift; sourceTree = "<group>"; };
+		CB7CE6B52B9EE09300235DB1 /* ChartDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataView.swift; sourceTree = "<group>"; };
+		CB7CE6B72B9EE6E300235DB1 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		CB7CE6BB2BA189FB00235DB1 /* ChartModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartModule.swift; sourceTree = "<group>"; };
+		CB7CE6BD2BA3A34200235DB1 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		CB7CE6C12BA400FC00235DB1 /* WorkoutVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutVIew.swift; sourceTree = "<group>"; };
+		CB7CE6C32BA41AC900235DB1 /* WorkoutViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewHeader.swift; sourceTree = "<group>"; };
+		CB8BE5062B9A59E000958B51 /* myDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myDivider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +118,10 @@
 		CB0DC7652B946C2A00DB0A8C /* FitFlexer */ = {
 			isa = PBXGroup;
 			children = (
+				CB7CE6C02BA3FFCC00235DB1 /* WorkoutView */,
+				CB8BE5052B9A59BF00958B51 /* RRepeatViews */,
 				CB0DC7922B95462400DB0A8C /* MainInterface */,
 				CB0DC7662B946C2A00DB0A8C /* FitFlexerApp.swift */,
-				CB0DC7682B946C2A00DB0A8C /* ContentView.swift */,
 				CB0DC76A2B946C2B00DB0A8C /* Assets.xcassets */,
 				CB0DC76C2B946C2B00DB0A8C /* Preview Content */,
 				CB0DC7962B9581AB00DB0A8C /* Constants.swift */,
@@ -152,10 +167,64 @@
 		CB0DC7932B95463A00DB0A8C /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				CB0DC7942B95473F00DB0A8C /* OverViewComponent.swift */,
-				CB77F2AC2B978356004722FC /* PoundsTimeIntervalSelectionMenu.swift */,
+				CB8BE5092B9AD47300958B51 /* OverViewModule */,
+				CB7CE6BD2BA3A34200235DB1 /* Header.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		CB77F2AE2B9784F8004722FC /* PoundsTimeInterval */ = {
+			isa = PBXGroup;
+			children = (
+				CB77F2AC2B978356004722FC /* PoundsTimeIntervalSelectionView.swift */,
+				CB77F2AF2B978518004722FC /* PoundsTimeIntervalModel.swift */,
+			);
+			path = PoundsTimeInterval;
+			sourceTree = "<group>";
+		};
+		CB7CE6B42B9EE03800235DB1 /* ChartView */ = {
+			isa = PBXGroup;
+			children = (
+				CB7CE6B52B9EE09300235DB1 /* ChartDataView.swift */,
+				CB7CE6B72B9EE6E300235DB1 /* DataModel.swift */,
+				CB7CE6BB2BA189FB00235DB1 /* ChartModule.swift */,
+			);
+			path = ChartView;
+			sourceTree = "<group>";
+		};
+		CB7CE6C02BA3FFCC00235DB1 /* WorkoutView */ = {
+			isa = PBXGroup;
+			children = (
+				CB7CE6C12BA400FC00235DB1 /* WorkoutVIew.swift */,
+				CB7CE6C32BA41AC900235DB1 /* WorkoutViewHeader.swift */,
+			);
+			path = WorkoutView;
+			sourceTree = "<group>";
+		};
+		CB8BE5052B9A59BF00958B51 /* RRepeatViews */ = {
+			isa = PBXGroup;
+			children = (
+				CB7CE6B42B9EE03800235DB1 /* ChartView */,
+				CB8BE5062B9A59E000958B51 /* myDivider.swift */,
+			);
+			path = RRepeatViews;
+			sourceTree = "<group>";
+		};
+		CB8BE5082B9AD46A00958B51 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CB77F2AE2B9784F8004722FC /* PoundsTimeInterval */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CB8BE5092B9AD47300958B51 /* OverViewModule */ = {
+			isa = PBXGroup;
+			children = (
+				CB8BE5082B9AD46A00958B51 /* Components */,
+				CB0DC7942B95473F00DB0A8C /* OverViewComponent.swift */,
+			);
+			path = OverViewModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,11 +357,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7CE6BC2BA189FB00235DB1 /* ChartModule.swift in Sources */,
+				CB7CE6BE2BA3A34200235DB1 /* Header.swift in Sources */,
+				CB7CE6C22BA400FC00235DB1 /* WorkoutVIew.swift in Sources */,
+				CB7CE6C42BA41AC900235DB1 /* WorkoutViewHeader.swift in Sources */,
+				CB8BE5072B9A59E000958B51 /* myDivider.swift in Sources */,
+				CB7CE6B62B9EE09300235DB1 /* ChartDataView.swift in Sources */,
+				CB7CE6B82B9EE6E300235DB1 /* DataModel.swift in Sources */,
+				CB77F2B02B978518004722FC /* PoundsTimeIntervalModel.swift in Sources */,
 				CB0DC7972B9581AB00DB0A8C /* Constants.swift in Sources */,
 				CB0DC79B2B9590B800DB0A8C /* RoundedCornerShapeExtensions.swift in Sources */,
 				CB0DC7952B95473F00DB0A8C /* OverViewComponent.swift in Sources */,
-				CB77F2AD2B978356004722FC /* PoundsTimeIntervalSelectionMenu.swift in Sources */,
-				CB0DC7692B946C2A00DB0A8C /* ContentView.swift in Sources */,
+				CB77F2AD2B978356004722FC /* PoundsTimeIntervalSelectionView.swift in Sources */,
 				CB0DC7912B95450700DB0A8C /* MainInterface.swift in Sources */,
 				CB0DC7672B946C2A00DB0A8C /* FitFlexerApp.swift in Sources */,
 			);
